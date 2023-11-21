@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    background: #C8D4FE;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.logo {
+    color: #60BDDA;
+    margin: 35px 120px 0 80px;
+    cursor: pointer;
+}
+
+.ul-nav {
+    margin-top: 20px;
+    list-style-type: none;
+    display: flex;
+    gap: 5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #3F7F94;
+    font-size: 1rem;
+}
+
+.instagram img {
+    position: absolute;
+    top: 7%;
+    left: 95%;
+    transform: translate(-95%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    cursor: pointer;
+}
+
+.sections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.section {
+    width: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+h4 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.section-text {
+    font-size: 20px;
+}
+
+.bottle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
